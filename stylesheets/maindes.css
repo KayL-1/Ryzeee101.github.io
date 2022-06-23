@@ -77,7 +77,7 @@ nav{
 }
 
 .intro {
-    font-size: 80px;
+    font-size: 6vw;
     font-weight: bold;
     padding-top: 150px;
 }
@@ -125,6 +125,7 @@ nav{
 
 .abtcont {
     scroll-snap-type: y mandatory;
+    position: static;
 }
 .column {
     float: left;
@@ -141,7 +142,7 @@ nav{
     clear: both;
     
     
-  }
+  } 
 
   .team {
     height: 300px;
@@ -217,16 +218,16 @@ nav{
   }
 
 .hCU {
-    color: #ff5e00;
+    color: white;
     font-size: 70px;
   }
 
 .pCU {
-    color: grey;
+    color: #2C3E50;
   }
 
 label {
-    color: #ff5e00;
+    color: white;
 }
 
 
@@ -287,6 +288,7 @@ label {
 .card h1{
     color: black;
     font-size: 22px;
+    margin-top: 10px;
 }
 .card_p{
     color: black;
@@ -345,6 +347,7 @@ hr.hr1 {
 
 
 .f2 {
+  margin: 20px;
   padding: 20px; 
   display: inline-block;
   color: #ff5e00;
@@ -406,4 +409,8 @@ hr.hr1 {
 
 .ca {
   height: 100vh;
+}
+
+.container-fluid {
+  margin-top: 60px;
 }

@@ -25,7 +25,7 @@ body, html {
   color: #000;
   background-color: transparent;
 }
-.bg1, .bg2, .bg3 {
+.bg1, .bg2, .bg3, .bg4 {
   /* Full height */
   height: 100%; 
 
@@ -39,14 +39,22 @@ body, html {
 .bg1{
   background-image: url(../image/background/bg-1.jpg);
   min-height: 100%;
+  width: 100%;
 }
 .bg2{
   background-image: url(../image/background/bg-2.jpg);
   min-height: 400px;
+  width: 100%;
 }
 .bg3{
   background-image: url(../image/background/bg-3.jpg);
   min-height: 400px;
+  width: 100%;
+}
+.bg4{
+  background-image: url(../image/background/bg-4.jpg);
+  min-height: 400px;
+  width: 100%;
 }
 
 /*parallax scrolling*/
@@ -58,12 +66,9 @@ body, html {
     margin-left: 150px;
 }
 .header{
-    height:550px;
     color: #ECF0F1;
     background-color:transparent;
     font-size:36px;
-    margin-left: 150px;
-    padding-top: 10px;
 }
 nav{
     display: flex;
@@ -109,7 +114,7 @@ nav{
 }
 
 .intro {
-    font-size: 80px;
+    font-size: 6vw;
     font-weight: bold;
     font: roboto;
 }
@@ -132,13 +137,15 @@ nav{
     color: #ECF0F1;
 
 }
-product card
+/* product card */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   text-align: center;
   font-family: arial;
   margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
   float: left;
 }
 
@@ -173,4 +180,9 @@ product card
 hr.hr1 {
     border: 4;
     border-radius: 3;
+    margin: auto;
+}
+
+form {
+  margin-bottom: 50px;
 }
